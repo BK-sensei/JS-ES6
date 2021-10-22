@@ -1,5 +1,8 @@
 // EXERCICE 1 - PUSH SANS PUSH 
 
+let fruits = ['Apple', 'Orange', 'Banana']
+fruits = [... fruits, 'Raspberry']
+console.log(fruits);
 
 
 // EXERCICE 2 - UNSHIFT SANS UNSHIFT
