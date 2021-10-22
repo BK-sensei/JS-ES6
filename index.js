@@ -46,6 +46,11 @@ console.log(bobby)
 
 // EXERCICE 5 - FOREACH
 
+const numbers = [1, 2, 3, 4, 5, 6]
+
+numbers.forEach(function(number){
+    console.log(number)
+})
 
 
 // EXERCICE 6 - FILTER
