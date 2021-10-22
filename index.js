@@ -55,6 +55,11 @@ numbers.forEach(function(number){
 
 // EXERCICE 6 - FILTER
 
+const numberss = [1, 2, 3, 4, 5, 6]
 
+let even = numberss.filter(function(numEven){
+    return numEven % 2 === 0
+})
+console.log(even)
 
 // EXERCICE 7 - MAP
