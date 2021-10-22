@@ -7,6 +7,9 @@ console.log(fruits);
 
 // EXERCICE 2 - UNSHIFT SANS UNSHIFT
 
+let fruitss = ['Apple', 'Orange', 'Banana']
+fruitss = ['Raspberry', ... fruitss]
+console.log(fruitss);
 
 
 // EXERCICE 3 - ARRAY CONCATENATION
