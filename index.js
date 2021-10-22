@@ -62,4 +62,12 @@ let even = numberss.filter(function(numEven){
 })
 console.log(even)
 
+
 // EXERCICE 7 - MAP
+
+const numbersss = [1, 2, 3, 4, 5, 6]
+
+let squaredNum = numbersss.map(function(num){
+    return num * num
+})
+console.log(squaredNum)
