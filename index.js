@@ -24,6 +24,24 @@ console.log(arr3)
 
 // EXERCICE 4 - OBJECTS
 
+const user = {
+    age: 10,
+    eyes: "vert",
+    legs: 2,
+    arms: 2,
+    hair: "long",
+    caracterstique: "gras du bide",
+    nose: "petit nez",
+    ears: "grandes oreilles",
+    glasses: true,
+    sosie: "sarkozy"
+}
+
+const bobby = {
+    firstName: "bobby",
+    ...user
+}
+console.log(bobby)
 
 
 // EXERCICE 5 - FOREACH
