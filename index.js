@@ -48,26 +48,20 @@ console.log(bobby)
 
 const numbers = [1, 2, 3, 4, 5, 6]
 
-numbers.forEach(function(number){
-    console.log(number)
-})
+numbers.forEach(number => console.log(number))
 
 
 // EXERCICE 6 - FILTER
 
 const numberss = [1, 2, 3, 4, 5, 6]
 
-let even = numberss.filter(function(numEven){
-    return numEven % 2 === 0
-})
-console.log(even)
+let filtered = numberss.filter(num => num % 2 !== 0)
+console.log(filtered)
 
 
 // EXERCICE 7 - MAP
 
 const numbersss = [1, 2, 3, 4, 5, 6]
 
-let squaredNum = numbersss.map(function(num){
-    return num * num
-})
+let squaredNum = numbersss.map(num => num * num)
 console.log(squaredNum)
